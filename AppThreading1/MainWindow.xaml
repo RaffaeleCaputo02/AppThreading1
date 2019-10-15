@@ -6,7 +6,11 @@
         xmlns:local="clr-namespace:AppThreading1"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+    <Grid Background="#FFF10E0E">
+        <Button x:Name="Btn_Task" Content="Click" HorizontalAlignment="Left" Height="85" Margin="470,220,0,0" VerticalAlignment="Top" Width="240" Click="Btn_Task_Click"/>
+        <Label x:Name="lbl_risultato" Content="" HorizontalAlignment="Left" Height="80" Margin="460,90,0,0" VerticalAlignment="Top" Width="265"/>
+        <Button x:Name="Btn_Conta" Content="Conta" HorizontalAlignment="Left" Height="85" Margin="85,220,0,0" VerticalAlignment="Top" Width="250" Click="Btn_Conta_Click"/>
+        <Label x:Name="lbl_Conta" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="85,105,0,0" Width="235" Height="65"/>
+
     </Grid>
 </Window>
